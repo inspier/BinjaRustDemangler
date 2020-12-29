@@ -4,11 +4,16 @@ Author: **inspier**
 ## Description:
 This plugin demangles Rust symbols making them easier to read.
 
-![Image demoing plugin](https://github.com/inspier/BinjaRustDemangler/blob/master/img/RustDemangleExample.png)
+![Image showing plugin](https://github.com/inspier/BinjaRustDemangler/blob/master/img/RustDemangleExample.png)
 
 ## Installation Instructions
 
-Install all needed packages from pip in requirements.txt (Windows and MacOS Binja ship with an embedded python, [read here on how the docs say to install pip packages](https://docs.binary.ninja/guide/plugins.html#installing-prerequisites), or what I reccomend doing is just changing the python interpreter to a system install of python3 in settings)
+Install Dependencies
+
+```python
+pip install -r requirements.txt
+```
+
 ### Windows
 
 Clone this repository into `%APPDATA%/Binary Ninja/plugins/`
