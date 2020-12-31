@@ -6,7 +6,7 @@
     ],
     "api": "python3",
     "description": "Demangles Rust symbols.",
-    "longdescription": "This plugin demangles Rust symbols making them easier to read.\n![Image showing plugin](https://github.com/inspier/BinjaRustDemangler/blob/master/img/RustDemangleExample.png)",
+    "longdescription": "This plugin demangles Rust symbols making them easier to read.\n\n![Image showing plugin](https://github.com/inspier/BinjaRustDemangler/blob/master/img/RustDemangleExample.png)",
     "platforms": [
       "Darwin",
       "Linux",
