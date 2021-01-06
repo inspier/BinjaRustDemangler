@@ -1,10 +1,10 @@
-# Rust Demangle (v0.1.0)
+# Rust Demangle (v0.1.2)
 Author: **inspier**
 
 ## Description:
 This plugin demangles Rust symbols making them easier to read.
 
-![Image showing plugin](https://github.com/inspier/BinjaRustDemangler/blob/master/img/RustDemangleExample.png)
+![Image showing plugin](https://raw.githubusercontent.com/inspier/BinjaRustDemangler/master/img/RustDemangleExample.png)
 
 ## Installation Instructions
 
