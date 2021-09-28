@@ -19,7 +19,7 @@
     },
     "dependencies": {
       "pip": [
-        "rust_demangle"
+        "rust_demangler"
       ],
       "apt": [],
       "installers": [],
