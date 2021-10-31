@@ -1,4 +1,4 @@
-# Rust Demangle (v0.1.3)
+# Rust Demangle (v0.1.4)
 Author: **inspier**
 
 ## Description:
