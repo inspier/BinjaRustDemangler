@@ -24,11 +24,11 @@ def demangle_functions(bv: BinaryView):
                 try:
                     user_sym = Symbol(symbol.type, symbol.address, demangle(symbol.raw_name))
                 except TypeNotFoundError:
-                    pass
+                    continue
                 except UnableToLegacyDemangle:
-                    pass
+                    continue
                 except UnableTov0Demangle:
-                    pass
+                    continue
                 bv.define_user_symbol(user_sym)
 
     bv.commit_undo_actions()
